@@ -15,9 +15,8 @@
       "order": 1
     },
     "indent": {
-      "title": "Indent",
       "description": "Indent setting for how your shell code is formatted. 0 for tab, 2 for 2 spaces, 4 for 4 spaces",
-      "type": "number",
+      "type": "integer",
       "default": 2,
       "enum": [
         0,
@@ -27,14 +26,12 @@
       "order": 2
     },
     "showNotifications": {
-      "title": "Show notifications",
       "description": "Do you want to see the success message?",
       "type": "boolean",
       "default": false,
       "order": 3
     },
     "showErrorNotifications": {
-      "title": "Show error notifications",
       "description": "Do you want to see the error message?",
       "type": "boolean",
       "default": true,
