@@ -1,0 +1,21 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "command": "format-shell:format",
+        "label": "Format Shell Script"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "command": "format-shell:format",
+          "label": "Format Shell Script"
+        }
+      ]
+    }
+  ]
+}
