@@ -61,7 +61,7 @@
   "scripts": {
     "test": "tap --100 code/**/*.tap.js"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "devDependencies": {
     "standard-version": "3.0.0"
   }
