@@ -11,7 +11,7 @@
       "title": "Path to shfmt executable",
       "description": "Absolute filesystem path. If you do not have shfmt installed, you can [download a package for your OS here](https://github.com/mvdan/sh/releases).",
       "type": "string",
-      "default": "/usr/local/bin/shfmt",
+      "default": "shfmt",
       "order": 1
     },
     "indent": {
@@ -41,7 +41,7 @@
   "dependencies": {},
   "description": "Format your shell scripts automatically in the Atom text editor",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.4.0 <2.0.0"
   },
   "homepage": "https://github.com/focusaurus/atom-format-shell#readme",
   "keywords": [
