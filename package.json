@@ -80,7 +80,7 @@
   "name": "format-shell",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/focusaurus/atom-format-shell.git"
+    "url": "https://github.com/focusaurus/atom-format-shell.git"
   },
   "scripts": {
     "release": "standard-version"
