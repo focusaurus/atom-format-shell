@@ -92,6 +92,7 @@ docker_run() {
     --attach stdin --attach stdout --attach stderr \
     --volume "${PWD}:/host" \
     --volume $SSH_AUTH_SOCK:/ssh-agent \
+    --volume $HOME/.gitconfig:/home/node/.gitconfig \
     --env SSH_AUTH_SOCK=/ssh-agent \
     --user "$(id -u)" \
     --publish 9999:9999 \
