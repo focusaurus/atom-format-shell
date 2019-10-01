@@ -31,35 +31,53 @@
       "default": false,
       "order": 3
     },
-    "indentSwitch": {
-      "description": "switch cases will be indented (-ci command line flag)",
-      "type": "boolean",
-      "default": false,
-      "order": 4
-    },
     "binary": {
       "description": "binary ops like && and | may start a line (-bn command line flag)",
       "type": "boolean",
       "default": false,
+      "order": 4
+    },
+    "indentSwitch": {
+      "description": "switch cases will be indented (-ci command line flag)",
+      "type": "boolean",
+      "default": false,
       "order": 5
+    },
+    "spaceAfterRedirect": {
+      "description": "redirect operators will be followed by a space (-sr command line flag)",
+      "type": "boolean",
+      "default": false,
+      "order": 6
+    },
+    "keepPaddings": {
+      "description": "keep column alignment paddings (-kp command line flag)",
+      "type": "boolean",
+      "default": false,
+      "order": 7
+    },
+    "minifyProgram": {
+      "description": "minify program to reduce its size (implies -s) (-mn command line flag)",
+      "type": "boolean",
+      "default": false,
+      "order": 8
     },
     "showNotifications": {
       "description": "Do you want to see the success message?",
       "type": "boolean",
       "default": false,
-      "order": 6
+      "order": 9
     },
     "showErrorNotifications": {
       "description": "Do you want to see the error message?",
       "type": "boolean",
       "default": true,
-      "order": 7
+      "order": 10
     },
     "formatOnSave": {
       "description": "Format file on save.",
       "type": "boolean",
       "default": false,
-      "order": 8
+      "order": 11
     }
   },
   "dependencies": {},
