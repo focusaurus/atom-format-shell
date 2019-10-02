@@ -105,6 +105,6 @@
   },
   "version": "2.2.0",
   "devDependencies": {
-    "standard-version": "3.0.0"
+    "standard-version": "7.0.0"
   }
 }
