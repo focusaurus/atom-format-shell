@@ -1,3 +1,11 @@
+# Atom Editor is Archived so this Plugin is also Archived
+
+The atom editor official website says 
+
+| Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our official statement.
+
+https://atom-editor.cc/
+
 # Atom Format Shell
 
 Automatically format/beautify/pretty-print your shell script source code from within the Atom text editor.
